@@ -1,0 +1,131 @@
+@font-face {
+    font-family: custom-font;
+    src=url (myfont.ttf);
+   }
+   * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.parent-link{
+    font-size: 1rem;
+}
+.parent-link,.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 222px;
+}
+.logo:hover{
+    opacity: 0.9;
+}
+.social-links{
+    padding:  1.5rem;
+    margin: 0;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    border-radius: 30px;
+}
+.social-links:hover{
+    opacity: 0.4;
+}
+.sm-icon{
+    padding: 0 1rem;
+    margin: 0;
+    color: white;
+}
+.sm-con:hover{
+    opacity: 0.8;
+}
+nav{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #010f13 0%, #55ff21 100%);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+}
+.sub-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 90vh;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0, 25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: white;
+    padding-bottom: 3rem;
+}
+h2{
+    margin: 1.5rem 0 2rem 0;
+    text-align: center;
+}
+input{
+    display: flex;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 8px;
+    padding: 12px 24px;
+    width: 250px;
+    background-color: #eaeeed;
+}
+input:focus{
+    opactiy: 0.7;
+}
+p{
+    font-size: x-small;
+    text-align: auto;
+    opacity: 0.5;
+    padding: 1%;
+}
+button{
+    padding:12px 48px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: #1a1b27;
+    font-weight: 600;
+    width: 100%;
+}
+button:hover{
+    opacity: 0.8;
+}
+.bottom-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.login{
+    padding-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #21d4fd;
+}
+.login:hover{
+    opacity: 0.8;
+}

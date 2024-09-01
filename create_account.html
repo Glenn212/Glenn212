@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<header>
+    <nav class="container">
+        <div class="logo-box">
+            <a href="home.html">
+                <img src="logo/logo-no-background.png" alt="MA-FUA" class="logo">
+            </a>    
+        </div>
+        <div class="parent-link">
+            <a href="home.html" class="social-links">Home</a>
+            <a href="#" class="social-links">Projects</a>
+            <a href="about.html" class="social-links">About</a>
+            <a href="contact.html" class="social-links">Contact</a>
+        </div>
+        <div class="icon">
+            <a href="https://wa.me/254757394722" target="_blank" class="sm-icon">
+                <i class="fa fa-whatsapp"></i> <!-- Corrected icon tag -->
+            </a>
+            <a href="#" target="_blank" class="sm-icon">
+                <i class="fa fa-icon-placeholder"></i> <!-- Replace with appropriate icon -->
+            </a>
+        </div>
+    </nav>
+    <div class="form">
+        <form action="signup_process.php" class="sub-form" method="post">
+            <div class="upper-form">
+                <h2>Signup</h2>
+                <input type="text" placeholder="Enter your full name" required><br>
+                <input type="email" placeholder="Enter Email" required><br>
+                <input type="tel" placeholder="Enter Mobile Number" required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <input type="password" name="confirm_password" placeholder="Confirm Password" required><br>
+                <div class="btn">
+                    <button type="submit">Signup</button>
+                </div>
+            </div>
+            <div class="bottom-form">
+                <div class="yes account">Already have an account?</div>
+                <a href="login.html" class="login">Login</a>
+            </div>
+        </form>
+    </div>
+</header>
+</body>
+</html>
